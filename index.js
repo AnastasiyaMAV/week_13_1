@@ -1,7 +1,6 @@
-document.querySelector('button').onclick = function() {
-    let a = prompt("Как тебя зовут?", '');
-    let b = 'Привет, ' + a + '!';
+document.getElementById('firstButton').onclick = function() {
+    let questionName = prompt("Как тебя зовут?", '');
 
-    alert(b);
+    alert('Привет, ' + questionName + '!');
 }
 
